@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions-3.0.2",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "timerTrigger",
+      "schedule": "0 0 4 * * *",
+      "useMonitor": true,
+      "runOnStartup": false,
+      "name": "myTimer"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "../CalculateEmployeeOptoutTimeline/bin/Release/netcoreapp3.1/bin/CalculateEmployeeOptoutTimeline.dll",
+  "entryPoint": "CalculateEmployeeOptoutTimeline.CalculateEmployeeOptoutTimeline.Run"
+}
